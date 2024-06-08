@@ -1,0 +1,133 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+:root{
+	--primary-color: #FBEEF3;
+	--primary-rgb-color: 251,238,243;
+	--white-color: #FFFFFF;
+	--primary-rgb-color: 255,255,255;
+	--secondary-color: #E2809F;
+	--primary-rgb-color: 226,128,159;
+	--gray-color: #545454;
+	--gray-rgb-color: 84,84,84;
+	--black-color: #212121;
+	--black-rgb-color: 33,33,33;
+	--display-bg-color:aqua;
+	--title-font: 'Roboto Slab';
+	--description-font: 'Manrope';
+	--fs: 13px;
+	--lh: 1.5;
+	--fw: 400;
+	--lack-width: 15px;
+}
+body{
+	background-color: var(--display-bg-color);
+	color: var(--white-color);
+	font-family: var(--description-font);
+	font-size: var(--fs);
+	line-height: var(--lh);
+	font-weight: var(--fw);
+}
+.card{
+	background-color: black;
+	font-family: var(--title-font);
+}
+.d-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+.img{
+	background-color: gainsboro;
+}
+.container{
+	max-width: 1320px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: var(--lack-width);
+	padding-right: var(--lack-width);
+	display: flex;
+	flex-wrap: wrap;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: calc(-1 * var(--lack-width));
+}
+.c-1{
+	width: 8.3333%;
+}
+.c-2{
+	width: 16.6666%;
+}
+.c-3{
+	width: 25%;
+}
+.c-4{
+	width: 33.3333%;
+}
+.c-5{
+	width: 41.6666%;
+}
+.c-6{
+	width: 50%;
+}
+.c-7{
+	width: 58.3333%;
+}
+.c-8{
+	width: 66.6666%;
+}
+.c-9{
+	width: 75%;
+}
+.c-10{
+	width: 83.3333%;
+}
+.c-11{
+	width: 91.6666%;
+}
+.c-12{
+	width: 100%;
+}
+.c-1,.c-2,.c-3,.c-4,.c-5,.c-6,.c-7,.c-8,.c-9,.c-10,.c-11,.c-12{
+	padding-left: var(--lack-width);
+	padding-right: var(--lack-width);
+}
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-center{
+	justify-content: center;
+}
+.justify-end{
+	justify-content: flex-end;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.justify-evenly{
+	justify-content: space-evenly;
+}
+.align-start{
+	align-items: flex-start;
+}
+.align-center{
+	align-items: center;
+}
+.align-end{
+	align-items: flex-end;
+}

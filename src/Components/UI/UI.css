@@ -1,0 +1,42 @@
+.card{
+    width: 600px;
+    height: 300px;
+    background-color: #e8e7e7;
+    margin: 25px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    background-color: aquamarine;
+    margin: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(151, 150, 150);
+    padding: 15px;
+}
+.d-flex{
+    display: flex;
+}
+.username{
+    padding-top: 60px;
+}
+.username p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.mail{
+    padding-top: 5px;
+}
+.fullname{
+    line-height: 1.5em;
+}
+.fullname p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+.padding{
+    padding-left: 40px;
+}
